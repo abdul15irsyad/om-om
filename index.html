@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="./assets/img/logo-small.png" type="image/x-icon">
-    <title>Om Om</title>
+    <link rel="icon" href="./assets/img/logo-white.png" type="image/x-icon">
+    <title>Om Om | Beranda</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -19,7 +19,7 @@
 </head>
 <body>
   <!-- navbar -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+  <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="index.html"><img src="./assets/img/logo-white.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span id="navbarIcon" class="navbar-toggler-icon"></span>
@@ -33,10 +33,10 @@
           <a class="nav-link" href="tentang.html">Tentang</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Karir</a>
+          <a class="nav-link" href="#">Lokasi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Lokasi</a>
+          <a class="nav-link" href="#">Karir</a>
         </li>
         <li class="nav-item nav-socmed">
           <a class="nav-link" href="#">Facebook</a>
@@ -53,7 +53,7 @@
   </nav>
   <!-- navbar end -->
   <!-- carousel -->
-  <div class="container-fluid">
+  <div id="carousel" class="container-fluid">
     <div class="row">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -85,7 +85,7 @@
   </div>
   <!-- carousel end -->
   <!-- about -->
-  <div class="section">
+  <div id="about" class="section">
     <div class="container">
       <div class="section-title text-center">
         <h3>Tentang Om Om</h3>
@@ -93,15 +93,15 @@
       </div>
       <div class="row">
         <div class="col-md-6 about-text">
-          <div class="isi">
+          <div class="isi" data-aos="fade-up">
             <p>
               &emsp;&emsp;Lorem, ipsum dolor sit amet consectetur adipisicing elit. In eos sapiente assumenda, ab quae sunt ipsam accusantium delectus consectetur est asperiores dolorum, eius iusto omnis ea doloribus. Animi ut suscipit rerum ab quod eum aut autem! Omnis officia quos modi ad esse? Velit voluptatem quae animi aliquam iusto tenetur numquam.
             </p>
           </div>
         </div>
         <div class="col-md-6 about-image">
-          <div class="image-tentang">
-            <img src="./assets/img/tentang.jpg" alt="">
+          <div class="image-tentang" data-aos="fade-up">
+            <img src="./assets/img/tentang.png" alt="">
           </div>
         </div>
       </div>
@@ -115,13 +115,13 @@
         <h3>Varian Rasa</h3>
         <hr>
       </div>
-      <div class="row row-card" data-aos="fade-up">
+      <div class="row row-card">
         <div class="col-lg-4 col-md-6">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <div class="row">
               <div class="col pr-0">
                 <div class="card-image p-3">
-                  <img src="./assets/img/produk/coffee.png" alt="">
+                  <img src="./assets/img/produk/variant1.png" alt="">
                 </div>
               </div>
               <div class="col pl-0 align-self-center text-left">
@@ -132,11 +132,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <div class="row">
               <div class="col pr-0">
                 <div class="card-image p-3">
-                  <img src="./assets/img/produk/coffee.png" alt="">
+                  <img src="./assets/img/produk/variant1.png" alt="">
                 </div>
               </div>
               <div class="col pl-0 align-self-center text-left">
@@ -147,11 +147,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
               <div class="row">
                 <div class="col pr-0">
                   <div class="card-image p-3">
-                    <img src="./assets/img/produk/coffee.png" alt="">
+                    <img src="./assets/img/produk/variant1.png" alt="">
                   </div>
                 </div>
                 <div class="col pl-0 align-self-center text-left">
@@ -162,11 +162,11 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <div class="row">
               <div class="col pr-0">
                 <div class="card-image p-3">
-                  <img src="./assets/img/produk/coffee.png" alt="">
+                  <img src="./assets/img/produk/variant1.png" alt="">
                 </div>
               </div>
               <div class="col pl-0 align-self-center text-left">
@@ -177,11 +177,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <div class="row">
               <div class="col pr-0">
                 <div class="card-image p-3">
-                  <img src="./assets/img/produk/coffee.png" alt="">
+                  <img src="./assets/img/produk/variant1.png" alt="">
                 </div>
               </div>
               <div class="col pl-0 align-self-center text-left">
@@ -192,11 +192,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
-          <div class="card">
+          <div class="card" data-aos="fade-up">
             <div class="row">
               <div class="col pr-0">
                 <div class="card-image p-3">
-                  <img src="./assets/img/produk/coffee.png" alt="">
+                  <img src="./assets/img/produk/variant1.png" alt="">
                 </div>
               </div>
               <div class="col pl-0 align-self-center text-left">
@@ -211,7 +211,7 @@
   </div>
   <!-- variant end -->
   <!-- footer -->
-  <div class="section section-footer text-white">
+  <div id="footer" class="section section-footer text-white">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-auto" style="height: 100%;">

@@ -67,7 +67,7 @@ nav.navbar a.socmed:hover{
 }
 
 .section{
-    padding: 20px 0px;
+    padding: 20px 0px 40px;
 }
 
 .section-dark{
@@ -76,6 +76,7 @@ nav.navbar a.socmed:hover{
 
 .section-title{
     font-family: 'KGColdCoffee';
+    color: rgba(0,0,0,.7);
     font-weight: bold;
     margin: 20px 0px 40px;
 }
@@ -83,6 +84,10 @@ nav.navbar a.socmed:hover{
 .section hr{
     border: 1px solid rgb(0,0,0,.1);
     width: 30%;
+}
+
+#about .image-tentang{
+    padding: 0px 15px;
 }
 
 .card{
@@ -155,7 +160,7 @@ nav.navbar a.socmed:hover{
     }
 
     .carousel, .carousel-inner, .carousel-inner img{
-        height: 450px;
+        height: 90vh;
     }
 
     .title h3{
