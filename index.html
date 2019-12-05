@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="./assets/img/logo-white.png" type="image/x-icon">
     <title>Om Om | Beranda</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- animate on scroll -->
@@ -33,10 +33,10 @@
           <a class="nav-link" href="tentang.html">Tentang</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Lokasi</a>
+          <a class="nav-link" href="lokasi">Lokasi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Karir</a>
+          <a class="nav-link" href="karir.html">Karir</a>
         </li>
         <li class="nav-item nav-socmed">
           <a class="nav-link" href="#">Facebook</a>
@@ -127,7 +127,7 @@
               <div class="col pl-0 align-self-center text-left">
                 <div class="card-title">Chocolatos<br><span>Machalatte</span></div>
               </div>
-              <div class="card-price">10 Rb</div>
+              <div class="card-price">15<span class="thousand">.000</span></div>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@
               <div class="col pl-0 align-self-center text-left">
                 <div class="card-title">Good Day<br><span>Cappucino</span></div>
               </div>
-              <div class="card-price">10 Rb</div>
+              <div class="card-price">15<span class="thousand">.000</span></div>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@
                 <div class="col pl-0 align-self-center text-left">
                   <div class="card-title">Beng Beng<br><span>Drink</span></div>
                 </div>
-                <div class="card-price">15 Rb</div>
+                <div class="card-price">15<span class="thousand">.000</span></div>
               </div>
             </div>
         </div>
@@ -172,22 +172,7 @@
               <div class="col pl-0 align-self-center text-left">
                 <div class="card-title">Beng Beng<br><span>Drink</span></div>
               </div>
-              <div class="card-price">15 Rb</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card" data-aos="fade-up">
-            <div class="row">
-              <div class="col pr-0">
-                <div class="card-image p-3">
-                  <img src="./assets/img/produk/variant1.png" alt="">
-                </div>
-              </div>
-              <div class="col pl-0 align-self-center text-left">
-                <div class="card-title">Beng Beng<br><span>Drink</span></div>
-              </div>
-              <div class="card-price">15 Rb</div>
+              <div class="card-price">15<span class="thousand">.000</span></div>
             </div>
           </div>
         </div>
@@ -202,7 +187,22 @@
               <div class="col pl-0 align-self-center text-left">
                 <div class="card-title">Beng Beng<br><span>Drink</span></div>
               </div>
-              <div class="card-price">15 Rb</div>
+              <div class="card-price">15<span class="thousand">.000</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card" data-aos="fade-up">
+            <div class="row">
+              <div class="col pr-0">
+                <div class="card-image p-3">
+                  <img src="./assets/img/produk/variant1.png" alt="">
+                </div>
+              </div>
+              <div class="col pl-0 align-self-center text-left">
+                <div class="card-title">Beng Beng<br><span>Drink</span></div>
+              </div>
+              <div class="card-price">15<span class="thousand">.000</span></div>
             </div>
           </div>
         </div>
@@ -213,9 +213,29 @@
   <!-- footer -->
   <div id="footer" class="section section-footer text-white">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-auto" style="height: 100%;">
-          <p>&copy; Copyright Irsyad Abdul 2019. All Right Reserved</p>
+      <div class="row">
+        <div class="col text-center">
+          <span class="caption">Tanpa <img src="./assets/img/logo-white.png" alt="logo"> kalian bisa apa?</span>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-phone"></i>
+          <p class="mb-1">Ikuti kami di sosial media</p>
+          <div class="socmed">
+            <a href="" target="blank" class="socmed-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="" target="blank" class="socmed-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/omom.id" target="blank" class="socmed-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4 text-center mt-3">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Jl. Otista Raya. Komplek Ruko Prima Blok A16, Ciputat, Tanggerang</p>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-3">
+        <div class="col-auto text-center">
+          <p class="pb-0"><i class="fas fa-copyright"></i> Copyright <a href="https://www.linkedin.com/in/irsyad-abdul-hamid-darussalam-b67a01143/" class="me" target="blank">abdul15irsyad</a> | <span id="year">2019</span>. All Right Reserved</p>
         </div>
       </div>
     </div>
@@ -232,6 +252,9 @@
   <!-- my javascript -->
   <script src="./assets/js/script.js"></script>
   <script>
+    var date = new Date();
+    var year = document.getElementById("year");
+    year.innerHTML = date.getFullYear();
     AOS.init({
       duration:1000
     });

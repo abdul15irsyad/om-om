@@ -6,10 +6,12 @@
 /* universal */
 body{
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 a{
-    text-decoration-color: none;
+    text-decoration: none !important;
 }
 
 img{
@@ -78,7 +80,7 @@ nav.navbar a.socmed:hover{
     font-family: 'KGColdCoffee';
     color: rgba(0,0,0,.7);
     font-weight: bold;
-    margin: 20px 0px 40px;
+    margin: 20px 0px;
 }
 
 .section hr{
@@ -90,13 +92,13 @@ nav.navbar a.socmed:hover{
     padding: 0px 15px;
 }
 
-.card{
+#varian .card{
     border: none;
     border-radius: 10px;
     background: rgb(221, 187, 149);
 }
 
-.card:hover{
+/* #varian .card:hover{
     border: none;
     cursor: default;
     color: white;
@@ -104,29 +106,29 @@ nav.navbar a.socmed:hover{
     box-shadow: 2px 2px 5px rgb(0,0,0,.4);
 }
 
-.card:hover .card-price{
+#varian .card:hover .card-price{
     background-color: white;
     color: rgba(147,66,17,1);
     margin-right: 15px;
-}
+} */
 
-.card .card-title{
+#varian .card .card-title{
     font-weight: 600;
     letter-spacing: 2px;
     font-size: 120%;
 }
 
-.card .card-title span{
+#varian .card .card-title span{
     font-weight: 100;
     font-size: 90%;
 }
 
-.card .card-image img{
+#varian .card .card-image img{
     /* border-radius: 50%; */
     filter: drop-shadow(3px 3px 5px rgba(0,0,0,.5));
 }
 
-.card .card-price{
+#varian .card .card-price{
     border-radius: 5px;
     background-color: rgba(147,66,17,1);
     font-family: 'KGColdCoffee';
@@ -141,13 +143,50 @@ nav.navbar a.socmed:hover{
     transition: .3s;
 }
 
-.section-footer{
-    background: linear-gradient(180deg,rgb(0,0,0,.7) 0%,rgba(0,0,0,.9) 80%),url(../img/carousel/carousel.jpg);
-    background-size: cover;
-    background-position: center;
-    /* min-height: 300px; */
+#varian .card .card-price span.thousand{
+    font-size: 60%;
 }
 
+#footer{
+    background: linear-gradient(180deg,rgb(0,0,0,.7) 0%,rgba(0,0,0,.98) 80%),url(../img/carousel/carousel.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat';
+    padding: 20px 0px;
+}
+
+#footer .caption{
+    font-size: 140%;
+}
+
+#footer img{
+    width: 30px;
+    margin: 0px 5px;
+}
+
+#footer .fa-phone, #footer .fa-map-marker-alt{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#footer a.socmed-icon{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#footer a.socmed-icon:hover{
+    color: rgb(255, 255, 255);
+}
+
+#footer a.me{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#footer a.me:hover{
+    color: rgb(255, 255, 255);
+}
 
 /* laptop */
 @media(min-width: 992px){
@@ -160,11 +199,19 @@ nav.navbar a.socmed:hover{
     }
 
     .carousel, .carousel-inner, .carousel-inner img{
-        height: 90vh;
+        height: 88vh;
     }
 
     .title h3{
         font-size: 40px;
+    }
+
+    #footer{
+        padding-top: 30px;
+    }
+
+    #footer .navbar-footer{
+        margin-bottom: 15px;
     }
 }
 
